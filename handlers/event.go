@@ -9,8 +9,8 @@ import (
 	"github.com/nlopes/slack"
 	termbox "github.com/nsf/termbox-go"
 
-	"github.com/erroneousboat/slack-term/context"
-	"github.com/erroneousboat/slack-term/views"
+	"slack-term/context"
+	"slack-term/views"
 )
 
 var timer *time.Timer

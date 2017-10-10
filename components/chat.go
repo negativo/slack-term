@@ -8,8 +8,8 @@ import (
 
 	"github.com/erroneousboat/termui"
 
-	"github.com/erroneousboat/slack-term/config"
-	"github.com/erroneousboat/slack-term/service"
+	"slack-term/config"
+	"slack-term/service"
 )
 
 // Chat is the definition of a Chat component
@@ -102,8 +102,8 @@ func (c *Chat) Buffer() termui.Buffer {
 				x, currentY,
 				termui.Cell{
 					Ch: ' ',
-					Fg: c.List.ItemFgColor,
-					Bg: c.List.ItemBgColor,
+					Fg: c.List.ItemBgColor,
+					Bg: c.List.ItemFgColor,
 				},
 			)
 			x++

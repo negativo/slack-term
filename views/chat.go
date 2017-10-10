@@ -3,8 +3,8 @@ package views
 import (
 	"github.com/erroneousboat/termui"
 
-	"github.com/erroneousboat/slack-term/components"
-	"github.com/erroneousboat/slack-term/service"
+	"slack-term/components"
+	"slack-term/service"
 )
 
 type View struct {
@@ -41,7 +41,6 @@ func CreateChatView(svc *service.SlackService) *View {
 func (v *View) Refresh() {
 	termui.Render(
 		v.Input,
-		v.Chat,
 		v.Channels,
 		v.Mode,
 	)

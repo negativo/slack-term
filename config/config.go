@@ -23,8 +23,8 @@ type keyMapping map[string]string
 func NewConfig(filepath string) (*Config, error) {
 	cfg := Config{
 		Theme:        "dark",
-		SidebarWidth: 1,
-		MainWidth:    11,
+		SidebarWidth: 3,
+		MainWidth:    9,
 		KeyMap: map[string]keyMapping{
 			"command": {
 				"i":          "mode-insert",

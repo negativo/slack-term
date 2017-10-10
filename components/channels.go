@@ -6,7 +6,7 @@ import (
 
 	"github.com/erroneousboat/termui"
 
-	"github.com/erroneousboat/slack-term/service"
+	"slack-term/service"
 )
 
 const (
@@ -15,7 +15,7 @@ const (
 	IconChannel      = "#"
 	IconGroup        = "☰"
 	IconIM           = "●"
-	IconNotification = "🞷"
+	IconNotification = "1"
 
 	PresenceAway   = "away"
 	PresenceActive = "active"

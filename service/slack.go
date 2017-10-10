@@ -10,7 +10,7 @@ import (
 
 	"github.com/nlopes/slack"
 
-	"github.com/erroneousboat/slack-term/config"
+	"slack-term/config"
 )
 
 const (
